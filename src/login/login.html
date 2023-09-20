@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../../dist/output.css">
+    <script src="https://kit.fontawesome.com/bfaea3e5bc.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-violet-500 grid grid-rows-2 h-screen">
+    <main class="h-full">
+        <section class="flex flex-col items-center my-8">
+          <div class="my-9">
+            <h2 class="text-neutral-100 font-semibold text-4xl">
+              Login to Shh!
+            </h2>
+          </div>
+          <div class="bg-zinc-950 px-14 flex justify-center rounded-full hover:bg-zinc-800 cursor-pointer">
+            <button class="py-4">
+              <i class="fa-brands fa-google text-neutral-100 mx-2 text-xl"></i>
+              <a href="#" class="text-neutral-100 text-lg font-semibold ">
+                Login with Google
+              </a>
+            </button>
+          </div>
+        </section>
+        <form>
+          <fieldset class="border-t-2 border-slate-600 mx-3 py-4 flex flex-col items-center" >
+            <legend class="text-center px-3 text-lg">
+              <strong>Or login with Google</strong>
+            </legend>
+            <div class="max-[600px]:w-5/6 my-4 w-80">
+                <label for="email" class="font-bold text-lg">Username or Email</label>
+                <input id="email" type="text" class="rounded-full w-full py-3 px-6 my-3
+                 outline-none"/>
+            </div>
+            <div class="max-[600px]:w-5/6 my-4 w-80">
+                <div class="flex justify-between">
+                  <label for="passwd" class="font-bold text-lg">Password</label>  
+                  <span class="text-lg cursor-pointer">Forgot?</span>
+                </div>
+                <div>
+                    <input id="passwd" type="password" class="rounded-full w-full py-3 px-6 my-3 
+                     outline-none"/>
+                </div>
+            </div>
+          </fieldset>
+        </form>
+        <section class="max-[600px]:w-full grid">
+          <div class="justify-self-center max-[600px]:w-[250px] text-center">
+            <p class="text-neutral-100 font-semibold text-xl">
+              Don´t have an account?
+              <a href="../signup/signUp.html" class="text-black">Sign Up</a>
+            </p>
+          </div>
+        </section>
+      </main>
+</body>
+</html>

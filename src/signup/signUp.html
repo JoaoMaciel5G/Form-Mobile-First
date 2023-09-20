@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../../dist/output.css" />
+    <script
+      src="https://kit.fontawesome.com/bfaea3e5bc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-violet-500 h-screen">
+    <main class="h-full">
+      <section class="flex flex-col items-center my-8">
+        <div class="my-9">
+          <h2 class="text-neutral-100 font-semibold text-4xl">
+            Sign Up to Shh!
+          </h2>
+        </div>
+        <div class="bg-zinc-950 px-14 flex justify-center rounded-full hover:bg-zinc-800">
+          <button class="py-4">
+            <i class="fa-brands fa-google text-neutral-100 mx-2 text-xl"></i>
+            <a href="#" class="text-neutral-100 text-lg font-semibold">
+              Sign Up with Google
+            </a>
+          </button>
+        </div>
+      </section>
+      <form>
+        <fieldset
+          class="border-t-2 border-slate-600 mx-3 py-4 flex flex-col items-center"
+        >
+          <legend class="text-center px-3 text-lg">
+            <strong>Or continue with Email</strong>
+          </legend>
+          <div class="max-[600px]:w-5/6 my-4 w-80">
+            <input
+              type="text"
+              placeholder="Enter your name"
+              class="rounded-full w-full py-3 px-6 placeholder:font-bold placeholder:text-zinc-500 outline-none shadow-lg shadow-gray-900"
+            />
+          </div>
+          <div class="max-[600px]:w-5/6 my-4 w-80">
+            <input
+              type="text"
+              placeholder="Enter username"
+              class="rounded-full w-full py-3 px-6 placeholder:font-bold placeholder:text-zinc-500 outline-none shadow-lg shadow-gray-900"
+            />
+          </div>
+          <div class="max-[600px]:w-5/6 my-4 w-80">
+            <input
+              type="email"
+              placeholder="Enter Email"
+              class="rounded-full w-full py-3 px-6 placeholder:font-bold placeholder:text-zinc-500 outline-none shadow-lg shadow-gray-900"
+            />
+          </div>
+          <div class="max-[600px]:w-5/6 my-4 w-80">
+            <input
+              type="password"
+              placeholder="Enter password"
+              class="rounded-full w-full py-3 px-6 placeholder:font-bold placeholder:text-zinc-500 outline-none shadow-lg shadow-gray-900"
+            />
+          </div>
+          <div class="max-[600px]:w-5/6 w-80 flex items-center justify-center">
+            <div class="my-4">
+              <input type="checkbox" id="check" class="w-6 h-6" />
+            </div>
+            <div class="mx-3">
+              <label for="check" class="text-neutral-100 font-semibold"
+                >I agree with the Terms of Service and Privacy Policy</label
+              >
+            </div>
+          </div>
+        </fieldset>
+      </form>
+      <section class="max-[600px]:w-full grid ">
+        <div class="max-[600px]:justify-self-end max-[600px]:w-[250px] text-center">
+          <button
+            class="text-neutral-100 bg-black text-lg font-semibold px-10 py-4 rounded-full mr-5"
+          >
+            Create Account
+          </button>
+          <p class="text-neutral-100 font-semibold text-xl">
+            Already have a account?
+            <a href="../login/login.html" class="text-black">Login</a>
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
